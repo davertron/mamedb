@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mame>
+    <game name="test1">
+        <description>Test 1</description>
+    </game>
+    <game name="test2">
+        <description>Test 2</description>
+    </game>
+</mame>
