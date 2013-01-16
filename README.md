@@ -1,6 +1,6 @@
 # mamedb
 
-A Clojure library designed to read in a mame xml file generated with "mame.xml -listxml" and output an .ini file mapping filenames to titles.
+A Clojure library designed to read in a mame xml file generated with "mame.exe -listxml" and output an .ini file mapping filenames to titles.
 
 ## Usage
 
