@@ -1,10 +1,12 @@
 # mamedb
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure library designed to read in a mame xml file generated with "mame.xml -listxml" and output an .ini file mapping filenames to titles.
 
 ## Usage
 
-FIXME
+lein run -m mamedb.core
+
+Spits out "names-to-title.ini"
 
 ## License
 
