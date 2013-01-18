@@ -13,7 +13,7 @@
 
 (defn write-xml [game-list out-file]
   (with-open [out (java.io.BufferedWriter. (java.io.OutputStreamWriter. (java.io.FileOutputStream. out-file) "UTF-8"))]
-  (data.xml/emit (data.xml/element :games {} (map (fn [[game-name game-title]] (data.xml/element :game {:name-attr game-name} game-title)) game-list)) out)))
+  (data.xml/emit (data.xml/element :games {} (map (fn [[game-name game-title]] (data.xml/element :game {:name game-name} game-title)) game-list)) out)))
 
 (defn write-names-to-file [game-list out-file]
   (spit out-file
